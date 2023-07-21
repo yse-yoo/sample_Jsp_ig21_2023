@@ -1,5 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    
+<%
+	String title = "Hello Page";
+	String message = "このファイルはJSPで作成されています";
+%>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,7 +13,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Hello JSP</h1>
-	<p>このファイルはJSPで作成されています</p>
+	<h1><%= title %></h1>
+	<p><%= message %></p>
 </body>
 </html>
